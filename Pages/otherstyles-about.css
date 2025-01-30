@@ -1,0 +1,407 @@
+body {
+    background: black;
+    color: white;
+    font-family: Helvetica Neue, Helvectica, sans-serif;
+    margin: 0px 0px;
+}
+
+header{
+    padding: 35px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+header nav ul, footer nav{
+    display: flex;
+    flex-direction: row;
+    /* align-content: center;
+    justify-items: center; */
+}
+
+header h1 {
+    text-align: left;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+
+header h2 {
+    align-self: flex-start;
+    text-align: left;
+    font-size: medium;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+/*Openning statement on page*/
+section.raise-text {
+    padding: 120px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+p.Statement {
+    transition: all 0.9s;
+    opacity: 0.5;
+    font-size: 33px;
+    position: absolute;
+    top: 30%;
+}
+
+section.raise-text:hover p.Statement{
+    transform: translateY(-25%);
+    opacity: 1;
+}
+
+section.bottom {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 6px;
+}
+
+
+
+
+section {
+    /* background: rgb(247, 247, 247); Change all sections background colour */
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 0px 0px;
+}
+
+section.upper {
+    color: white;
+    background-color: black;
+    display: middle;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+
+/* Adjusts the div boxes (Particualrly the flex direction & location)*/
+section.middle, section.bottom-middle{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    padding-top: 0px;
+    gap:60px;
+}
+
+section.lower-middle, section.high-bottom{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    padding-top: 0px;
+    background-color: blue;
+}
+
+
+
+
+
+
+div {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    border-radius: 10px;
+    color: black;
+    font-size: 30px;
+}
+
+div.Project-1, div.Project-2{
+    height: 800px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-up {
+    margin: 0px;
+    height: 300px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-up img {
+    width: 100%; /* Ensures the image scales to fill the width of the box */
+    height: 100%; /* Ensures the image scales to fill the height of the box */
+    object-fit: cover; /* Scales the image to fully cover the box while maintaining aspect ratio */
+    object-position:center; /* Centers the image within the box */
+    border-radius: 10px;
+}
+
+.box-down {
+    height: 400px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.box-down .sub-title{
+    padding: 30px 30px 10px 50px;
+    margin: 0px;
+    font-size: 42px;
+    text-align: center;
+}
+
+.box-down .job-title{
+    margin: 0px;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.box-down .description{
+    margin: 0px;
+    font-size: 25px;
+    padding: 20px 30px 30px 50px; /*up right down left*/
+}
+
+.box-down .City{
+    width: 120px;
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.box-down .Hylands{
+    width: 87px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+div.Project-3{
+    width: 1420px;
+    /* background-color: rgb(247, 247, 247); */
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.box-right {
+    height: 800px;
+    width: 720px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-right img {
+    width: 100%; /* Ensures the image scales to fill the width of the box */
+    height: 100%; /* Ensures the image scales to fill the height of the box */
+    object-fit: cover; /* Scales the image to fully cover the box while maintaining aspect ratio */
+    object-position:bottom; /* Centers the image within the box */
+    border-radius: 10px;
+}
+
+.box-left {
+    height: 800px;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub-title{
+    padding: 30px;
+    margin: 0px;
+    font-size: 23px;
+}
+
+.box-left .description{
+    padding: 10px 30px 30px 20px; /*up right down left*/
+    font-weight: 500;
+    margin: 0px;
+    font-size: 50px;
+}
+
+.core-description{
+    line-height: 2.5rem; /*Line height*/
+    padding: 20px 30px 20px 30px;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.small-text{
+    font-size: 20px;
+    width: 200px;
+    margin-top: 40px;
+}
+
+div.organizations{
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    align-self: center;
+}
+
+div.organizations img{
+    margin: 5px;
+    width: 100%; /* Ensures the image scales to fill the width of the box */
+    height: 70%; /* Ensures the image scales to fill the height of the box */
+}
+
+
+
+
+
+
+div.about-me{
+    width: 1420px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.box-left-2{
+    height: 800px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid rgb(110, 199, 110);
+}
+
+.box-right-2{
+    height: 800px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.Me {
+    width: 100%; /* Ensures the image scales to fill the width of the box */
+    height: 100%; /* Ensures the image scales to fill the height of the box */
+    object-fit: cover; /* Scales the image to fully cover the box while maintaining aspect ratio */
+    object-position:center; /* Centers the image within the box */
+    border-radius: 10px;
+}
+
+
+
+
+div.Photo3 {
+    background-size: 100%;
+    background-position-x: 50%; /* Centers the image in the div */
+    background-position-y: 70%;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 700px;
+    width: 600px;
+    box-sizing: border-box;
+}
+
+
+section.testing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+
+div.Resume{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 900px;
+    height: 900px;
+}
+
+div.Resume img{
+    max-height: 100%;
+    box-shadow:
+    rgba(0, 0, 0, 0.3) 0 -2px 5px, /* Shadow at the top */
+    rgba(0, 0, 0, 0.3) 0 5px 5px; /* Shadow at the bottom */;
+}
+
+
+.project-button {
+    width:150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgb(110, 199, 110);
+    background-color: white;
+    box-shadow: inset 0 0 0 0 lightgreen;
+    transition: ease-out 0.35s;
+}
+
+.project-button:hover{
+    box-shadow: inset 150px 0 0px 0px lightgreen;
+    cursor: pointer;
+}
+
+
+
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+    color: white;
+}
+
+a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    background: lightgreen;
+    transition: width 0.2s;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+a:visited {
+    color: white;
+}

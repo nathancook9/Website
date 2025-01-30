@@ -1,0 +1,333 @@
+body {
+    background: black;
+    color: white;
+    font-family: Helvetica Neue, Helvectica, sans-serif;
+    margin: 0px 0px;
+    min-height: 100vh;
+}
+
+header{
+    padding: 35px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+header nav ul, footer nav{
+    display: flex;
+    flex-direction: row;
+    /* align-content: center;
+    justify-items: center; */
+}
+
+header h1 {
+    text-align: left;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+
+header h2 {
+    align-self: flex-start;
+    text-align: left;
+    font-size: medium;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 0px 0px;
+}
+
+section.upper {
+    background-color: black;
+    display: middle;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+section.middle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 30px 0px; /*up right down left*/
+}
+
+section.first-text {
+    color: black;
+    padding: 120px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+p.Statement {
+    transition: all 0.9s;
+    opacity: 0.4;
+    font-size: 33px;
+    position: absolute;
+    top: 30%;
+}
+
+section.first-text:hover p.Statement{
+    font-size: 34px;
+    transform: translateY(-25%);
+    opacity: 1;
+}
+
+section.sussy{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    padding-top: 0px;
+    gap:60px;
+    color: black;
+}
+
+section.main-text{
+    color:black;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+}
+
+section.middle-text{
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    color:black;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 27px;
+}
+
+section.bottom {
+    padding: 6px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+
+
+
+
+div.Project-3{
+    width: 1420px;
+    /* background-color: rgb(247, 247, 247); */
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.box-right {
+    height: 800px;
+    width: 720px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-right img {
+    width: 100%; /* Ensures the image scales to fill the width of the box */
+    height: 100%; /* Ensures the image scales to fill the height of the box */
+    object-fit: cover; /* Scales the image to fully cover the box while maintaining aspect ratio */
+    object-position:bottom; /* Centers the image within the box */
+    border-radius: 10px;
+}
+
+.box-left {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    height: 800px;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    /* background-color: lightgreen; */
+}
+
+.box-left .sub-title{
+    padding: 30px;
+    margin: 0px;
+    font-size: 23px;
+    /* border: 1px solid black; */
+}
+
+.box-left .description{
+    padding: 0px 30px 30px 20px; /*up right down left*/
+    font-weight: 500;
+    margin: 0px;
+    font-size: 50px;
+    /* border: 1px solid black; */
+}
+
+.box-left .core-description{
+    line-height: 2.5rem; /*Line height*/
+    padding: 20px 30px 20px 30px;
+    margin: 0px;
+    font-size: 30px;
+    /* border: 1px solid black; */
+}
+
+.small-text{
+    font-size: 20px;
+    /* border: 1px solid black; */
+    width: 200px;
+    margin-top: 40px;
+}
+
+div.signature {
+    align-self: center ;
+    background-size: 125%;
+    background-position-x: 0%; /* Centers the image in the div */
+    background-position-y: 50%;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 700px;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+div {
+    margin: 10px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+div.Photo1 {
+    background-size: 200%;
+    background-position-x: 50%; /* Centers the image in the div */
+    background-position-y: 80%;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 700px;
+    width: 550px;
+    box-sizing: border-box;
+}
+
+div.Photo2 {
+    background-size: 100%;
+    background-position-x: 50%; /* Centers the image in the div */
+    background-position-y: 85%;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 700px;
+    width: 550px;
+    box-sizing: border-box;
+}
+
+div.Photo3-golf {
+    background-size: 205%;
+    background-position-x: 75%; /* Centers the image in the div */
+    background-position-y: 70%;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 700px;
+    width: 550px;
+    box-sizing: border-box;
+}
+
+div.Photo3 {
+    background-size: 100%;
+    background-position-x: 50%; /* Centers the image in the div */
+    background-position-y: 70%;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 700px;
+    width: 550px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+    color: white;
+}
+
+a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    background: lightgreen;
+    transition: width 0.2s;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+a:visited {
+    color: white;
+}
+
+/* Media Query: Adjust for smaller screen sizes */
+@media (max-width: 1200px) {
+    div.Photo1, div.Photo2, div.Photo3 {
+        width: 45%; /* Make them slightly smaller on narrower screens */
+    }
+}
+
+@media (max-width: 768px) {
+    section.middle {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    div.Photo1, div.Photo2, div.Photo3 {
+        width: 90%; /* Full width for small screens */
+        max-width: 500px; /* Set a reasonable max width */
+    }
+}
