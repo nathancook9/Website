@@ -51,7 +51,7 @@ header h2 {
 
 section {
     background: white;
-    padding: 20px;
+    padding: 2.0vh;
     margin: 0px 0px;
 }
 
@@ -95,31 +95,28 @@ section.first-text:hover p.Statement{
     opacity: 1;
 }
 
-section.sussy{
+section.main{
     display: flex;
     flex-direction: wrap;
     justify-content: center;
     padding-top: 0px;
-    gap:60px;
     color: black;
 }
 
 section.main-text{
     color:black;
-    padding: 100px;
+    padding: 10.6vh;
     display: flex;
     justify-content: center;
     position: relative;
-    font-size: 30px;
+    font-size: 3.0vmin;
 }
 
 section.middle-text{
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     color:black;
     padding: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     font-size: 27px;
 }
 
@@ -134,17 +131,18 @@ section.bottom {
 
 
 div.Project-3{
-    width: 1420px;
+    width: 100vw;
     /* background-color: rgb(247, 247, 247); */
     background-color: white;
     display: flex;
-    padding: 20px;
-    gap: 20px;
+    justify-content: center;
+    gap: 1.041vw;
+    /* background-color: red; */
 }
 
 .box-right {
-    height: 800px;
-    width: 720px;
+    height: 85vh;
+    width: 35vw;
     display: flex;
     justify-content: center;
 }
@@ -153,49 +151,48 @@ div.Project-3{
     width: 100%; /* Ensures the image scales to fill the width of the box */
     height: 100%; /* Ensures the image scales to fill the height of the box */
     object-fit: cover; /* Scales the image to fully cover the box while maintaining aspect ratio */
-    object-position:bottom; /* Centers the image within the box */
+    object-position:top; /* Centers the image within the box */
     border-radius: 10px;
 }
 
 .box-left {
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-    height: 800px;
-    width: 720px;
+    height: 85vh;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: start;
     text-align: start;
-    /* background-color: lightgreen; */
 }
 
 .box-left .sub-title{
-    padding: 30px;
+    padding: 3.17vh;
     margin: 0px;
-    font-size: 23px;
+    font-size: 2.6vmin;
     /* border: 1px solid black; */
 }
 
 .box-left .description{
-    padding: 0px 30px 30px 20px; /*up right down left*/
+    padding: 0vh 3.17vh 3.17vh 1.04vw; /*up right down left*/
     font-weight: 500;
     margin: 0px;
-    font-size: 50px;
+    font-size: 5.8vmin;
     /* border: 1px solid black; */
 }
 
 .box-left .core-description{
-    line-height: 2.5rem; /*Line height*/
-    padding: 20px 30px 20px 30px;
+    /* line-height: 2.5rem; */
+    padding: 1.04vw 3.17vh 3.17vh 1.04vw;
     margin: 0px;
-    font-size: 30px;
+    font-size: 3.0vmin;
     /* border: 1px solid black; */
 }
 
 .small-text{
-    font-size: 20px;
+    font-size: 2.0vmin;
     /* border: 1px solid black; */
-    width: 200px;
-    margin-top: 40px;
+    width: 10.41vw;
+    margin-top: 4.23vh;
 }
 
 div.signature {
@@ -204,8 +201,8 @@ div.signature {
     background-position-x: 0%; /* Centers the image in the div */
     background-position-y: 50%;
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 700px;
-    width: 500px;
+    height: 74vh;
+    width: 26vw;
     box-sizing: border-box;
 }
 
