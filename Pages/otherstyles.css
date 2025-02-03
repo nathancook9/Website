@@ -47,7 +47,7 @@ section {
     /* background: rgb(247, 247, 247); */
     background-color: white;
     color: black;
-    padding: 20px;
+    padding: 2.116vh;
     margin: 0px 0px;
 }
 
@@ -56,7 +56,7 @@ section.upper {
     background-color: black;
     display: middle;
     text-align: center;
-    font-size: 20px;
+    font-size: 2.1vmin;
     padding-top: 0px;
 }
 
@@ -66,20 +66,20 @@ section.middle, section.bottom-middle{
     display: flex;
     flex-direction: wrap;
     justify-content: center;
-    padding: 50px;
-    gap:20px;
+    padding: 5.291vh;
+    gap: 1.041vw;
 }
 
 section.lower-middle, section.high-bottom{
     display: flex;
     flex-direction: wrap;
     justify-content: center;
-    padding: 60px;
+    padding: 6.349vh;
 }
 
 /*Openning statement on page*/
 section.raise-text {
-    padding: 120px;
+    padding: 12.698vh;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -115,18 +115,18 @@ div {
 }
 
 div.Project-1, div.Project-2{
-    height: 700px;
-    width: 700px;
+    height: 74.074vh;
+    width: 36.458vw;
     display: flex;
     flex-direction: column;
     /* background-color: rgb(233, 243, 252); */
-    border: 1px solid #559dc7;
+    /* border: 1px solid #559dc7; */
 }
 
 div.box-up {
     margin: 0px;
-    height: 300px;
-    width: 700px;
+    height: 31.746vh;
+    width: 36.458vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,37 +141,37 @@ div.box-up {
 }
 
 div.box-down {
-    height: 400px;
-    width: 700px;
+    height: 42.328vh;
+    width: 36.458vw;
     display: flex;
     flex-direction: column;
     /* background-color: #75A47F; */
 }
 
 .box-down .sub-title{
-    padding: 30px 30px 30px 50px;
+    padding: 3.174vh 1.5625vw 3.174vh 2.604vw;
     margin: 0px;
-    font-size: 35px;
+    font-size: 3.6vmin;
 }
 
 .box-down .description{
     margin: 0px;
-    font-size: 25px;
-    padding: 20px 30px 30px 50px; /*up right down left*/
+    font-size: 2.6vmin;
+    padding: 2.116vh 1.5625vw 3.174vh 2.604vw; /*up right down left*/
 }
 
 
 div.Project-3{
-    width: 1420px;
-    height: 500px;
+    width: 74vw;
+    height: 52.91vh;
     background-color: white;
-    gap: 20px;
+    gap: 1.0416vw;
 }
 
 .box-left {
     margin: 0px;
-    height: 500px;
-    width: 720px;
+    height: 52.91vh;
+    width: 37.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,8 +194,8 @@ div.Project-3{
 }
 
 .box-right {
-    height: 500px;
-    width: 720px;
+    height: 52.91vh;
+    width: 37.5vw;
     display: flex;
     flex-direction: column;
     background-color: #559dc7;
@@ -203,15 +203,15 @@ div.Project-3{
 }
 
 .box-right .sub-title{
-    padding: 40px 30px 30px 50px; /*up right down left*/
+    padding: 4.232vh 1.5625vw 3.174vh 2.6041vw; /*up right down left*/
     margin: 0px;
-    font-size: 35px;
+    font-size: 3.5vmin;
 }
 
 .box-right .description{
     margin: 0px;
-    font-size: 25px;
-    padding: 20px 30px 30px 50px;
+    font-size: 2.5vmin;
+    padding: 2.116vh 1.5625vw 3.174vh 2.6041vw;
 }
 
 .box-right .project-button{
@@ -219,18 +219,19 @@ div.Project-3{
 }
 
 .project-button {
-    margin: 50px;
-    width:150px;
-    height: 50px;
+    margin: 5.291vh;
+    width:7.8125vw;
+    height: 5.291vh;
     border-radius: 5px;
     border: 2px solid lightskyblue;
     background-color: rgb(216, 235, 250);;
     box-shadow: inset 0 0 0 0 lightskyblue;
     transition: ease-out 0.35s;
+    font-size: 1.6vmin;
 }
 
 .project-button:hover{
-    box-shadow: inset 150px 0 0 0 lightskyblue;
+    box-shadow: inset 15.87vh 0 0 0 lightskyblue;
     cursor: pointer;
 }
 
@@ -266,7 +267,7 @@ a::after{
     bottom: -3px;
     width: 0;
     background: lightgreen;
-    transition: width 0.2s;
+    transition: 0.2s;
 }
 
 a:hover:after {
