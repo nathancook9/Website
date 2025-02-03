@@ -48,7 +48,7 @@ header h2 {
 
 /*Openning statement on page*/
 section.raise-text {
-    padding: 120px;
+    padding: 12.69vh;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@ section.raise-text {
 p.Statement {
     transition: all 0.9s;
     opacity: 0.5;
-    font-size: 33px;
+    font-size: 3.3vmin;
     position: absolute;
     top: 30%;
 }
@@ -81,7 +81,7 @@ section {
     /* background: rgb(247, 247, 247); Change all sections background colour */
     background-color: white;
     color: black;
-    padding: 20px;
+    padding: 2.116vh;
     margin: 0px 0px;
 }
 
@@ -90,7 +90,7 @@ section.upper {
     background-color: black;
     display: middle;
     text-align: center;
-    font-size: 20px;
+    font-size: 2.0vmin;
     padding-top: 0px;
 }
 
@@ -101,7 +101,7 @@ section.middle, section.bottom-middle{
     flex-direction: wrap;
     justify-content: center;
     padding-top: 0px;
-    gap:60px;
+    gap:3.125vw;
 }
 
 section.lower-middle, section.high-bottom{
@@ -122,20 +122,20 @@ div {
     display: flex;
     border-radius: 10px;
     color: black;
-    font-size: 30px;
+    font-size: 3.0vmin;
 }
 
 div.Project-1, div.Project-2{
-    height: 800px;
-    width: 700px;
+    height: 84.65vh;
+    width: 36.45vw;
     display: flex;
     flex-direction: column;
 }
 
 .box-up {
     margin: 0px;
-    height: 300px;
-    width: 700px;
+    height: 31.74vh;
+    width: 36.45vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,8 +150,8 @@ div.Project-1, div.Project-2{
 }
 
 .box-down {
-    height: 400px;
-    width: 700px;
+    height: 42.32vh;
+    width: 36.45vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,33 +161,33 @@ div.Project-1, div.Project-2{
 .box-down .sub-title{
     padding: 30px 30px 10px 50px;
     margin: 0px;
-    font-size: 42px;
+    font-size: 4.2vmin;
     text-align: center;
 }
 
 .box-down .job-title{
     margin: 0px;
-    font-size: 18px;
+    font-size: 1.8vmin;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 2.6455vh;
 }
 
 .box-down .description{
     margin: 0px;
-    font-size: 25px;
-    padding: 20px 30px 30px 50px; /*up right down left*/
+    font-size: 2.5vmin;
+    padding: 2.116vh 1.5625vw 1.5625vw 5.291vh; /*up right down left*/
 }
 
 .box-down .City{
-    width: 120px;
-    margin-top: 20px;
+    width: 6.25vw;
+    margin-top: 2.116vh;
     display: flex;
     align-self: center;
     justify-content: space-between;
 }
 
 .box-down .Hylands{
-    width: 87px;
+    width: 4.53vw;
     display: flex;
     align-self: center;
     justify-content: space-between;
@@ -199,17 +199,17 @@ div.Project-1, div.Project-2{
 
 
 div.Project-3{
-    width: 1420px;
+    width: 74vw;
     /* background-color: rgb(247, 247, 247); */
     background-color: white;
     display: flex;
-    padding: 20px;
-    gap: 20px;
+    padding: 2.116vh;
+    gap: 1.041vw;
 }
 
 .box-right {
-    height: 800px;
-    width: 720px;
+    height: 84.65vh;
+    width: 37.5vw;
     display: flex;
     justify-content: center;
 }
@@ -223,42 +223,42 @@ div.Project-3{
 }
 
 .box-left {
-    height: 800px;
-    width: 720px;
+    height: 84.65vh;
+    width: 37.5vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .sub-title{
-    padding: 30px;
+    padding: 3.174vh;
     margin: 0px;
-    font-size: 23px;
+    font-size: 2.4vmin;
 }
 
 .box-left .description{
-    padding: 10px 30px 30px 20px; /*up right down left*/
+    padding: 1.058vh 1.5625vw 1.5625vw 2.116vh; /*up right down left*/
     font-weight: 500;
     margin: 0px;
-    font-size: 50px;
+    font-size: 5.2vmin;
 }
 
 .core-description{
     line-height: 2.5rem; /*Line height*/
-    padding: 20px 30px 20px 30px;
+    padding: 2.116vh 1.5625vw 1.041vw 3.174vh;
     margin: 0px;
-    font-size: 30px;
+    font-size: 3.10vmin;
 }
 
 .small-text{
-    font-size: 20px;
-    width: 200px;
-    margin-top: 40px;
+    font-size: 2.1vmin;
+    width: 10.416vw;
+    margin-top: 4.232vh;
 }
 
 div.organizations{
-    margin-top: 50px;
-    width: 500px;
+    margin-top: 5.291vh;
+    width: 26.0416vw;
     display: flex;
     align-self: center;
 }
@@ -275,26 +275,30 @@ div.organizations img{
 
 
 div.about-me{
-    width: 1420px;
+    width: 74vw;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    padding: 20px;
-    gap: 20px;
+    padding: 2.116vh;
+    gap: 1.041vw;
 }
 
 .box-left-2{
-    height: 800px;
-    width: 600px;
+    height: 84.65vh;
+    width: 31.25vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 2px solid rgb(110, 199, 110);
+    border: 2px solid rgb(110, 199, 110);;
+}
+
+.box-left-2 .sub-title{
+    font-size: 2.4vmin
 }
 
 .box-right-2{
-    height: 800px;
-    width: 600px;
+    height: 84.65vh;
+    width: 31.25vw;
     display: flex;
     justify-content: center;
 }
@@ -308,24 +312,11 @@ div.about-me{
 }
 
 
-
-
-div.Photo3 {
-    background-size: 100%;
-    background-position-x: 50%; /* Centers the image in the div */
-    background-position-y: 70%;
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 700px;
-    width: 600px;
-    box-sizing: border-box;
-}
-
-
 section.testing{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 2.6041vw;
 }
 
 
@@ -333,8 +324,8 @@ div.Resume{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 900px;
-    height: 900px;
+    width: 95.24vh;
+    height: 46.875vw;
 }
 
 div.Resume img{
@@ -346,13 +337,14 @@ div.Resume img{
 
 
 .project-button {
-    width:150px;
-    height: 50px;
+    width:7.8125vw;
+    height: 5.291vh;
     border-radius: 5px;
     border: 2px solid rgb(110, 199, 110);
     background-color: white;
     box-shadow: inset 0 0 0 0 lightgreen;
     transition: ease-out 0.35s;
+    font-size: 1.5vmin;
 }
 
 .project-button:hover{
