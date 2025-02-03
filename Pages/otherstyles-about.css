@@ -293,7 +293,8 @@ div.about-me{
 }
 
 .box-left-2 .sub-title{
-    font-size: 2.5vmin
+    font-size: 2.5vmin;
+    overflow-wrap: break-word;
 }
 
 .box-right-2{
