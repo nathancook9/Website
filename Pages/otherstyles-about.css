@@ -233,7 +233,7 @@ div.Project-3{
 .sub-title{
     padding: 3.174vh;
     margin: 0px;
-    font-size: 2.4vmin;
+    font-size: 2.5vmin;
 }
 
 .box-left .description{
@@ -244,10 +244,10 @@ div.Project-3{
 }
 
 .core-description{
-    line-height: 2.5rem; /*Line height*/
+    line-height: 4.5vh; /*Line height*/
     padding: 2.116vh 1.5625vw 1.041vw 3.174vh;
     margin: 0px;
-    font-size: 3.10vmin;
+    font-size: 3.20vmin;
 }
 
 .small-text{
@@ -264,7 +264,7 @@ div.organizations{
 }
 
 div.organizations img{
-    margin: 5px;
+    margin: 0.5291vh;
     width: 100%; /* Ensures the image scales to fill the width of the box */
     height: 70%; /* Ensures the image scales to fill the height of the box */
 }
