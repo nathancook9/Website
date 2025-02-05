@@ -283,17 +283,21 @@ div.about-me{
     gap: 1.041vw;
 }
 
+.sub-title-me{
+    margin: 0px;
+    font-size: clamp(10.5px, 1.3cqi, 2.5vmin);
+    height: 82vh;
+    width: 29.5vw;
+}
+
 .box-left-2{
     height: 84.65vh;
     width: 31.25vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border: 2px solid rgb(110, 199, 110);;
-}
-
-.box-left-2 .sub-title{
-    font-size: 2.5vmin
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(110, 199, 110);
 }
 
 .box-right-2{
